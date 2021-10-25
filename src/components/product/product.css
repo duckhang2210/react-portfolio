@@ -1,6 +1,6 @@
 .p {
   width: 30%;
-  height: 40vh;
+  height: 35vh;
   margin: 20px 10px;
   border: 2px solid rgb(243, 242, 242);
   border-radius: 10px 10px 0px 0px;
@@ -33,6 +33,14 @@
   transform: translateY(-100%);
 }
 
+.p-card h1 {
+  margin: 20px 0;
+}
+
+.p-card ul {
+  margin: 40px 0;
+}
+
 @media screen and (max-width: 480px) {
   .p {
     width: 90%;
@@ -40,10 +48,6 @@
     margin: 15px auto;
   }
   .p-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
     margin: 10px 0;
   }
 }

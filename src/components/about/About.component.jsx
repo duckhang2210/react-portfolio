@@ -15,17 +15,17 @@ const About = () => {
                 </div>
             </div>
             <div className="a-right">
-            <h1 className="a-title">About Me</h1>
-        <p className="a-sub">
-        I’m a Web Developer located in Houston, Texas. I have a serious love for building and developing app/websites.
-        </p>
-        <p className="a-desc">
-        Well-organised person, problem solver, independent employee with high attention to detail. Fan of MMA, TV series and Lego.
-        </p>
-        <p className="a-desc">
-        Interested in acquiring new knowledge and working on ambitious projects with positive people.
-        </p>
-        
+                <h1 className="a-title">About Me</h1>
+                <p className="a-sub">
+                    I’m a Web Developer located in Houston, Texas. I have a serious love for building and developing app/websites.
+                </p>
+                <p className="a-desc">
+                    Well-organised person, problem solver, independent employee with high attention to detail. Fan of MMA, TV series and Lego.
+                </p>
+                <p className="a-desc">
+                    Interested in acquiring new knowledge and working on ambitious projects with positive people.
+                </p>
+                <div className='button'><p>Get my Resume</p></div>
             </div>
         </div>
     )

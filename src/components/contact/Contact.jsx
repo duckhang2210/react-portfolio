@@ -5,6 +5,8 @@ import './contact.css'
 import Phone from "../../img/phone.png"
 import Email from "../../img/email.png"
 import Address from "../../img/address.png"
+import LinkedIn from "../../img/linked2.png"
+import Github from "../../img/Octocat.png"
 import { ThemeContext } from '../../context';
 
 function Contact() {
@@ -39,15 +41,23 @@ function Contact() {
                     <div className="c-info">
                         <div className="c-info-item">
                             <img src={Phone} alt="" className="c-icon" />
-                            +1 713-277-8137
+                            <a href='tel:+1713-277-8137'>713-277-8137</a>
                         </div>
                         <div className="c-info-item">
                             <img className="c-icon" src={Email} alt="" />
-                            duckhang2210@gmail.com
+                            <a href='mailto:duckhang2210@gmail.com'>duckhang2210@gmail.com</a>
+                        </div>
+                        <div className="c-info-item">
+                            <img className="c-icon" src={LinkedIn} alt="" />
+                            <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/duc-khang-nguyen-606b62128/'>LinkedIn</a>
+                        </div>
+                        <div className="c-info-item">
+                            <img className="c-icon" src={Github} alt="" />
+                            <a target='_blank' rel='noreferrer' href='https://github.com/duckhang2210'>Github</a>
                         </div>
                         <div className="c-info-item">
                             <img className="c-icon" src={Address} alt="" />
-                                Houston, Texas
+                                Remote / Houston, Texas
                         </div>
                     </div>
                 </div>

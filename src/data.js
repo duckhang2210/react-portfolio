@@ -7,7 +7,7 @@ export const products = [
 	{
 		id: 2,
 		category: 'Back-End',
-		tech: ['Node JS', 'Mongo DB', 'SQL', 'GraphQL']
+		tech: ['Node JS', 'Mongo DB', 'MySQL', 'GraphQL']
 	},
 	{
 		id: 3,
