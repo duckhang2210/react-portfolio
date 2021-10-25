@@ -9,7 +9,7 @@ const Product = ({category, tech}) => {
         <div className="p-circle"></div>
         <div className="p-circle"></div>
       </div>
-      <div>
+      <div className='p-card'>
         <h1>{category}</h1>
         <ul>
             {tech.map(item => (<li>{item}</li>))}

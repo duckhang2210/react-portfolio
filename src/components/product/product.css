@@ -35,7 +35,15 @@
 
 @media screen and (max-width: 480px) {
   .p {
-    width: 40%;
-    height: 20vh;
+    width: 90%;
+    height: 100%;
+    margin: 15px auto;
+  }
+  .p-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin: 10px 0;
   }
 }
