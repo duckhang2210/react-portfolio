@@ -7,6 +7,7 @@ import Email from "../../img/email.png"
 import Address from "../../img/address.png"
 import LinkedIn from "../../img/linked2.png"
 import Github from "../../img/Octocat.png"
+import Resume from "../../img/resume.png"
 import { ThemeContext } from '../../context';
 
 function Contact() {
@@ -46,6 +47,10 @@ function Contact() {
                         <div className="c-info-item">
                             <img className="c-icon" src={Email} alt="" />
                             <a href='mailto:duckhang2210@gmail.com'>duckhang2210@gmail.com</a>
+                        </div>
+                        <div className="c-info-item">
+                            <img className="c-icon" src={Resume} alt="" />
+                            <a href="../../../public/Resume Duc Nguyen.pdf" download="Resume-DucNguyen.pdf">Download Resume</a>
                         </div>
                         <div className="c-info-item">
                             <img className="c-icon" src={LinkedIn} alt="" />
