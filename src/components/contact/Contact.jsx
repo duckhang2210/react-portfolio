@@ -50,7 +50,7 @@ function Contact() {
                         </div>
                         <div className="c-info-item">
                             <img className="c-icon" src={Resume} alt="" />
-                            <a href="../../../public/Resume Duc Nguyen.pdf" download="Resume-DucNguyen.pdf">Download Resume</a>
+                            <a href="../../../public/Resume-Duc-Nguyen.pdf" download="Resume-DucNguyen.pdf">Download Resume</a>
                         </div>
                         <div className="c-info-item">
                             <img className="c-icon" src={LinkedIn} alt="" />
